@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Pierre-feuille-sciseau</title>
+</head>
+
+<body>
+  <div class="score">
+      <p>vous</p>
+      <p>ordinateur</p>
+      <p id="score-player">0</p>
+      <p id="score-computer">0</p>
+      <div id="reset">Recommencer</div>
+  </div>
+  <div class="action">
+    <p id="message">à vous de jouer</p>
+    <div id="next">Tour suivant</div>
+  </div>
+  
+  <div class="jeu">
+    <div class="choix">
+      <div class ="button btn-player" id="pierre">
+        <img src="./img/pierre.png" alt="pierre" />
+        <p>Pierre</p>
+      </div>
+      <div class ="button btn-player" id="feuille">
+        <img src="./img/feuille.png" alt="feuille" />
+        <p>Papier</p>
+      </div>
+      <div class ="button btn-player" id="ciseaux">
+        <img src="./img/ciseaux.png" alt="ciseaux" />
+        <p>Ciseaux</p>
+      </div>
+    </div>
+
+    <div class="choix">
+      <div class ="button btn-computer" id="oPierre">
+        <img src="./img/pierre.png" alt="pierre" />
+        <p>Pierre</p>
+      </div>
+      <div class ="button btn-computer" id="oFeuille">
+        <img src="./img/feuille.png" alt="feuille" />
+        <p>Papier</p>
+      </div>
+      <div class ="button btn-computer" id="oCiseaux">
+        <img src="./img/ciseaux.png" alt="ciseaux" />
+        <p>Ciseaux</p>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
